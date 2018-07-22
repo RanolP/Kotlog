@@ -61,7 +61,7 @@ dokka {
 
     linkMapping {
         dir = 'src/main/kotlin'
-        url = 'https://github.com/RanolP/mfsjea.jvm/blob/master/src/main/kotlin'
+        url = 'https://github.com/kotlinmp/Kotlog/blob/master/src/main/kotlin'
         suffix = '#L'
     }
 }

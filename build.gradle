@@ -21,7 +21,7 @@ plugins {
 }
 
 allprojects {
-    group 'io.github.kotlin-multiplatforms'
+    group 'io.github.kotlinmp'
     version '1.0.0'
 }
 
@@ -52,9 +52,9 @@ def pomConfig = {
     }
 
     scm {
-        connection 'scm:git:https://github.com/kotlin-multiplatforms/Kotlog.git'
-        developerConnection 'scm:git:https://github.com/RanolP/Kotlog.git'
-        url 'https://github.com/kotlin-multiplatforms/Kotlog'
+        connection 'scm:git:https://github.com/kotlinmp/Kotlog.git'
+        developerConnection 'scm:git:https://github.com/kotlinmp/Kotlog.git'
+        url 'https://github.com/kotlinmp/Kotlog'
     }
 }
 
@@ -71,7 +71,7 @@ publishing {
             pom.withXml {
                 def root = asNode()
                 root.dependencies.'*'.findAll() {
-                    it.groupId.text() == 'io.github.kotlin-multiplatforms'
+                    it.groupId.text() == 'io.github.kotlinmp'
                 }.each() {
                     it.parent().remove(it)
                 }
@@ -90,7 +90,7 @@ model {
 
 task prepareUpload(type: Copy, dependsOn: [':jvm:build', 'generatePomFileForMyPublicationPublication']) {
     from 'jvm/build/libs'
-    into "build/upload/io/github/kotlin-multiplatforms/kotlog/${project.version}"
+    into "build/upload/io/github/kotlinmp/kotlog/${project.version}"
     include "jvm-${project.version}.jar"
     include "jvm-${project.version}-sources.jar"
     include "jvm-${project.version}-javadoc.jar"
