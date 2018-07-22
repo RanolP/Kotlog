@@ -1,16 +1,16 @@
-[korean]: https://github.com/kotlin-multiplatforms/Kotlog/blob/master/README.ko.md
-[english]: https://github.com/kotlin-multiplatforms/Kotlog/blob/master/README.md
+[korean]: https://github.com/kotlinmp/Kotlog/blob/master/README.ko.md
+[english]: https://github.com/kotlinmp/Kotlog/blob/master/README.md
 
 [bintray-badge]: https://api.bintray.com/packages/ranol-github/maven/kotlog/images/download.svg
 [bintray-url]: https://bintray.com/ranol-github/maven/kotlog
-[jitpack-badge]: https://img.shields.io/jitpack/v/kotlin-multiplatforms/Kotlog.svg
-[jitpack-url]: https://jitpack.io/#kotlin-multiplatforms/Kotlog
+[jitpack-badge]: https://img.shields.io/jitpack/v/kotlinmp/Kotlog.svg
+[jitpack-url]: https://jitpack.io/#kotlinmp/Kotlog
 
-[license-badge]: https://img.shields.io/github/license/kotlin-multiplatforms/Kotlog.svg
-[license-url]: https://github.com/kotlin-multiplatforms/Kotlog/blob/master/LICENSE
+[license-badge]: https://img.shields.io/github/license/kotlinmp/Kotlog.svg
+[license-url]: https://github.com/kotlinmp/Kotlog/blob/master/LICENSE
 
-[travis-badge]: https://img.shields.io/travis/kotlin-multiplatforms/Kotlog.svg
-[travis-url]: https://travis-ci.org/kotlin-multiplatforms/Kotlog
+[travis-badge]: https://img.shields.io/travis/kotlinmp/Kotlog.svg
+[travis-url]: https://travis-ci.org/kotlinmp/Kotlog
 
 [ ![travis-badge][] ][travis-url]
 [ ![bintray-badge][] ][bintray-url]
@@ -45,7 +45,7 @@ Maven
 </repositories>
 
 <dependency>
-  <groupId>io.github.kotlin-multiplatforms</groupId>
+  <groupId>io.github.kotlinmp</groupId>
   <artifactId>kotlog</artifactId>
   <version>VERSION</version>
 </dependency>
@@ -60,7 +60,7 @@ repositories {
 }
 
 dependencies {
-   implementation 'io.github.kotlin-multiplatforms:kotlog:VERSION'
+   implementation 'io.github.kotlinmp:kotlog:VERSION'
 }
 ```
 
@@ -79,7 +79,7 @@ Maven
 </repositories>
 
 <dependency>
-  <groupId>com.github.kotlin-multiplatforms.Kotlog</groupId>
+  <groupId>com.github.kotlinmp.Kotlog</groupId>
   <artifactId>jvm</artifactId>
   <version>VERSION</version>
 </dependency>
@@ -94,7 +94,7 @@ repositories {
 }
 
 dependencies {
-   implementation 'com.github.kotlin-multiplatforms.Kotlog:jvm:VERSION'
+   implementation 'com.github.kotlinmp.Kotlog:jvm:VERSION'
 }
 ```
 
@@ -111,17 +111,17 @@ todo
 
 ## Versioning
 
-이 프로젝트는 [SemVer 2.0.0](https://semver.org/lang/ko)을 준수합니다. 존재하는 버전은 [태그](https://github.com/kotlin-multiplatforms/Kotlog/tags)에서 확인하세요.
+이 프로젝트는 [SemVer 2.0.0](https://semver.org/lang/ko)을 준수합니다. 존재하는 버전은 [태그](https://github.com/kotlinmp/Kotlog/tags)에서 확인하세요.
 
 ## Authors
 
  * **Ranol** - *총괄* - [RanolP](https://github.com/RanolP)
 
-[기여자 목록](https://github.com/kotlin-multiplatforms/Kotlog/contributors)에서 더 많은 기여자를 확인하세요.
+[기여자 목록](https://github.com/kotlinmp/Kotlog/contributors)에서 더 많은 기여자를 확인하세요.
 
 ## License
 
-이 프로젝트는 MIT 라이선스로 관리됩니다. - [라이선스](https://github.com/kotlin-multiplatforms/Kotlog/blob/master/LICENSE) 파일에서 자세한 사항을 확인하세요.
+이 프로젝트는 MIT 라이선스로 관리됩니다. - [라이선스](https://github.com/kotlinmp/Kotlog/blob/master/LICENSE) 파일에서 자세한 사항을 확인하세요.
 
 ## Acknowledgments
 
