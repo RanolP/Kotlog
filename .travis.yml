@@ -21,7 +21,7 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    repo: kotlin-multiplatforms/Kotlog
+    repo: kotlinmp/Kotlog
 - provider: bintray
   file: .bintraydescriptor.json
   user: ranolp
@@ -30,4 +30,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    repo: kotlin-multiplatforms/Kotlog
+    repo: kotlinmp/Kotlog
