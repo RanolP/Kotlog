@@ -1,5 +1,5 @@
-[korean]: https://github.com/kotlinmp/Kotlog/blob/master/README.ko.md
-[english]: https://github.com/kotlinmp/Kotlog/blob/master/README.md
+[korean]: ./README.ko.md
+[english]: ./README.md
 
 [bintray-badge]: https://api.bintray.com/packages/ranol-github/maven/kotlog/images/download.svg
 [bintray-url]: https://bintray.com/ranol-github/maven/kotlog
